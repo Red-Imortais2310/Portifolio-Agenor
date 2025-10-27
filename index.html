@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Agenor de Araújo Filho | Desenvolvedor Web - HTML, CSS, JavaScript | Santos/SP</title>
+
+    <meta name="description" content="Portfólio de Agenor de Araújo Filho, Desenvolvedor Web em Santos/SP. Especialista em sites educacionais e institucionais usando HTML, CSS e JavaScript.">
+    
+    <meta name="keywords" content="Agenor de Araújo Filho, Desenvolvedor Web, HTML, CSS, JavaScript, Portfólio, Santos SP, Site Educacional, Projeto Institucional, Red-Imortais2310">
+
+    <meta name="author" content="Agenor de Araújo Filho">
+    <meta name="robots" content="index, follow"> 
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="icon" type="image/png" href="favicon.png"> 
+</head>
+<body>
+
+    <form name="contact" netlify hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+    <header id="hero" class="hero smoothscroll">
+        <div class="hero-content">
+            <p class="subtitle">Olá, eu sou</p>
+            <h1>Agenor de Araújo Filho</h1>
+            <p class="role">Desenvolvedor Web | Projetos Educacionais & Institucionais | Santos / SP</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn primary smoothscroll">Ver Projetos</a>
+                <a href="#contact" class="btn secondary smoothscroll">Entrar em Contato</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Red-Imortais2310" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/agenor-ara%C3%BAjo-filho-7bb9571b7/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/5513982018522" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section smoothscroll">
+        <div class="container">
+            <h2>Sobre Mim e Minha Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Experiência</h3>
+                    <p>Focado em desenvolvimento web utilizando HTML, CSS e JavaScript para criar soluções funcionais e visualmente atraentes, desde projetos acadêmicos a sites institucionais.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Contato</h3>
+                    <p>Celular: (55) 13 98201-8522</p>
+                    <p>Localização: Santos / SP</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Habilidades Técnicas</h3>
+                    <p>HTML, CSS (Com foco em Design Responsivo), JavaScript. Conhecimento em UI/UX.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="portfolio" class="section dark smoothscroll">
+    <div class="container">
+        <h2>Meus Projetos de Destaque</h2>
+        <p class="description">Projetos com foco em educação, e-commerce e soluções institucionais. Clique no link para ver o código no GitHub!</p>
+        
+        <div class="project-card">
+            <h3>VSite Museu Língua Portuguesa</h3>
+            <p>Simulação de site para o Museu da Língua Portuguesa. (HTML)</p>
+            <a href="https://red-imortais2310.github.io/site_museu_Ling-Pina/" target="_blank" class="project-link">Ver Demo Ao Vivo</a>
+            <a href="https://github.com/Red-Imortais2310/VSite_Museu_lingua_portuguesa" target="_blank" class="project-link">Ver Código/Repositório</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>Site Geografia Interativa</h3>
+            <p>Site educacional de geografia interativa - Projeto acadêmico 2025. (HTML)</p>
+            <a href="https://red-imortais2310.github.io/Site_Geografia/" target="_blank" class="project-link">Ver Demo Ao Vivo</a>
+            <a href="https://github.com/Red-Imortais2310/Site_Geografia" target="_blank" class="project-link">Ver Código/Repositório</a>
+        </div>
+        
+        <div class="project-card">
+    <h3>IfSpace - Rede Social do Campus Cubatão</h3>
+    <p>Simulação de rede social com notícias e eventos do Campus Cubatão. (HTML, CSS e JS)</p>
+    
+    <a href="https://red-imortais2310.github.io/IfSpace/" target="_blank" class="project-link">Ver Demo Ao Vivo</a>
+    
+    <a href="https://github.com/Red-Imortais2310/IfSpace" target="_blank" class="project-link">Ver Código/Repositório</a>
+</div>
+        
+        <div class="project-card">
+            <h3>Cardápio QR CODE Fictício</h3>
+            <p>Cardápio fictício para trabalho acadêmico acessível via QR CODE. (HTML)</p>
+            <a href="https://red-imortais2310.github.io/Cardapio-QR_CODE/" target="_blank" class="project-link">Ver Demo Ao Vivo</a>
+            <a href="https://github.com/Red-Imortais2310/Cardapio-QR_CODE" target="_blank" class="project-link">Ver Código/Repositório</a>
+        </div>
+        
+    </div>
+</section>
+
+<section id="contact" class="section smoothscroll">
+    <div class="container">
+        <h2>Vamos Conversar sobre Seu Projeto?</h2>
+        <p>Envie-me uma mensagem. A simplicidade e o requinte estão garantidos!</p>
+        
+        <form id="contactForm" name="contact" method="POST" data-netlify="true">
+
+            <input type="hidden" name="form-name" value="contact" />
+            
+            <p class="hidden" style="display: none !important;">
+                <label>Não preencha este campo se for humano: <input name="netlify-honeypot" /></label>
+            </p>
+
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            
+            <button type="submit" class="btn primary">Enviar Mensagem</button>
+
+            </form>
+    </div>
+</section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Agenor de Araújo Filho. Todos os direitos reservados.</p>
+            <div class="social-links-footer">
+                <a href="https://github.com/Red-Imortais2310" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/agenor-ara%C3%BAjo-filho-7bb9571b7/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/5513982018522" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
